@@ -3,64 +3,20 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 1,
             "patches": [
                 {
-                    "date": 1681531098413,
+                    "date": 1681559219581,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
                 },
                 {
-                    "date": 1681531105805,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,7 +39,7 @@\n         重置文件\r\n \r\n     git rm <filename>\r\n         删除文件\r\n-        \r\n+    \r\n \r\n     \r\n"
-                },
-                {
-                    "date": 1681531133609,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,6 +40,6 @@\n \r\n     git rm <filename>\r\n         删除文件\r\n     \r\n-\r\n     \r\n+    \r\n"
-                },
-                {
-                    "date": 1681531139139,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,6 +40,6 @@\n \r\n     git rm <filename>\r\n         删除文件\r\n     \r\n+    git res\r\n     \r\n-    \r\n"
-                },
-                {
-                    "date": 1681531146396,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,7 +39,7 @@\n         重置文件\r\n \r\n     git rm <filename>\r\n         删除文件\r\n+    git rm <filename>\r\n     \r\n-    git res\r\n     \r\n"
-                },
-                {
-                    "date": 1681531153282,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,7 +39,8 @@\n         重置文件\r\n \r\n     git rm <filename>\r\n         删除文件\r\n-    git rm <filename>\r\n+    git rm <filename> -f\r\n+        强制删除\r\n     \r\n     \r\n"
-                },
-                {
-                    "date": 1681531162617,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,6 +41,8 @@\n     git rm <filename>\r\n         删除文件\r\n     git rm <filename> -f\r\n         强制删除\r\n+\r\n     \r\n     \r\n+    \r\n"
-                },
-                {
-                    "date": 1681531169312,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n         初始化仓库\r\n \r\n     git restore <filename>\r\n         重置文件\r\n+        git restore <filename>\r\n \r\n     git rm <filename>\r\n         删除文件\r\n     git rm <filename> -f\r\n"
-                },
-                {
-                    "date": 1681558696039,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n         初始化仓库\r\n \r\n     git restore <filename>\r\n         重置文件\r\n-        git restore <filename>\r\n+    git restore --<filename>\r\n \r\n     git rm <filename>\r\n         删除文件\r\n     git rm <filename> -f\r\n"
-                },
-                {
-                    "date": 1681558706314,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,10 @@\n         初始化仓库\r\n \r\n     git restore <filename>\r\n         重置文件\r\n-    git restore --<filename>\r\n+    git restore --staged <filename>\r\n+        \r\n \r\n     git rm <filename>\r\n         删除文件\r\n     git rm <filename> -f\r\n"
-                },
-                {
-                    "date": 1681558727992,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n     git init\r\n         初始化仓库\r\n \r\n     git restore <filename>\r\n-        重置文件\r\n+        恢复文件\r\n     git restore --staged <filename>\r\n         \r\n \r\n     git rm <filename>\r\n"
-                },
-                {
-                    "date": 1681558742618,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n \r\n     git init\r\n         初始化仓库\r\n \r\n+    重置文件：\r\n     git restore <filename>\r\n         恢复文件\r\n     git restore --staged <filename>\r\n         \r\n"
-                },
-                {
-                    "date": 1681558758826,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,17 +30,16 @@\n \r\n                 git commit -a -m \"\"\r\n                     提交所有已修改文件(未跟踪文件不会提交)\r\n                 \r\n-\r\n     git init\r\n         初始化仓库\r\n \r\n     重置文件：\r\n     git restore <filename>\r\n         恢复文件\r\n     git restore --staged <filename>\r\n-        \r\n+        取消暂存状态\r\n \r\n     git rm <filename>\r\n         删除文件\r\n     git rm <filename> -f\r\n"
+                    "date": 1681559240482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,14 +40,14 @@\n         git restore --staged <filename>\r\n             取消暂存状态\r\n \r\n     删除文件：\r\n-    git rm <filename>\r\n-        删除文件\r\n-    git rm <filename> -f\r\n-        强制删除文件\r\n+        git rm <filename>\r\n+            删除文件\r\n+        git rm <filename> -f\r\n+            强制删除文件\r\n \r\n-    移动文件：\r\n-        git mv from to\r\n-        移动文件 重命名文件\r\n+        移动文件：\r\n+            git mv from to\r\n+            移动文件 重命名文件\r\n     \r\n-    \r\n+\r\n"
                 }
             ],
-            "date": 1681531098413,
+            "date": 1681559219581,
             "name": "Commit-0",
-            "content": "# Git\r\n## 配置\r\n    name\r\n        git config --global user.name \"lrr\"\r\n    email\r\n        git config --global user.email \"lrr12i@163.com\"\r\n\r\n## 使用git\r\n    git status \r\n        查看仓库状态\r\n            已跟踪\r\n                暂存：文件修改已保存，但是未提交到git仓库\r\n                未修改：磁盘中的文件和git仓库中文件相同，没有修改\r\n                已修改：磁盘中文件已被修改，和git仓库中文件不同\r\n                已修改 -> 暂存 -> 仓库\r\n            未跟踪\r\n                刚添加的文件\r\n\r\n                git add <filename>\r\n                git add *\r\n                    未跟踪-->暂存\r\n                    将文件切换到暂存状态\r\n\r\n                git commit -m \"第一次提交1.txt\"\r\n                    暂存-->未修改\r\n                    将暂存的文件存储到仓库中\r\n\r\n                    未修改-->修改\r\n                    修改代码后，文件变修改状态\r\n\r\n                git commit -a -m \"\"\r\n                    提交所有已修改文件(未跟踪文件不会提交)\r\n                \r\n\r\n    git init\r\n        初始化仓库\r\n\r\n    git restore <filename>\r\n        重置文件\r\n\r\n    git rm <filename>\r\n        删除文件\r\n        \r\n\r\n    \r\n"
+            "content": "# Git\r\n## 配置\r\n    name\r\n        git config --global user.name \"lrr\"\r\n    email\r\n        git config --global user.email \"lrr12i@163.com\"\r\n\r\n## 使用git\r\n    git status \r\n        查看仓库状态\r\n            已跟踪\r\n                暂存：文件修改已保存，但是未提交到git仓库\r\n                未修改：磁盘中的文件和git仓库中文件相同，没有修改\r\n                已修改：磁盘中文件已被修改，和git仓库中文件不同\r\n                已修改 -> 暂存 -> 仓库\r\n            未跟踪\r\n                刚添加的文件\r\n\r\n                git add <filename>\r\n                git add *\r\n                    未跟踪-->暂存\r\n                    将文件切换到暂存状态\r\n\r\n                git commit -m \"第一次提交1.txt\"\r\n                    暂存-->未修改\r\n                    将暂存的文件存储到仓库中\r\n\r\n                    未修改-->修改\r\n                    修改代码后，文件变修改状态\r\n\r\n                git commit -a -m \"\"\r\n                    提交所有已修改文件(未跟踪文件不会提交)\r\n                \r\n                git init\r\n                    初始化仓库\r\n\r\n    重置文件：\r\n        git restore <filename>\r\n            恢复文件\r\n        git restore --staged <filename>\r\n            取消暂存状态\r\n\r\n    删除文件：\r\n    git rm <filename>\r\n        删除文件\r\n    git rm <filename> -f\r\n        强制删除文件\r\n\r\n    移动文件：\r\n        git mv from to\r\n        移动文件 重命名文件\r\n    \r\n    \r\n"
         }
     ]
 }

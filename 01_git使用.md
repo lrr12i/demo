@@ -31,20 +31,23 @@
                 git commit -a -m ""
                     提交所有已修改文件(未跟踪文件不会提交)
                 
-    git init
-        初始化仓库
+                git init
+                    初始化仓库
 
     重置文件：
-    git restore <filename>
-        恢复文件
-    git restore --staged <filename>
-        取消暂存状态
+        git restore <filename>
+            恢复文件
+        git restore --staged <filename>
+            取消暂存状态
 
-    git rm <filename>
-        删除文件
-    git rm <filename> -f
-        强制删除
+    删除文件：
+        git rm <filename>
+            删除文件
+        git rm <filename> -f
+            强制删除文件
 
+        移动文件：
+            git mv from to
+            移动文件 重命名文件
     
-    
-    
+
