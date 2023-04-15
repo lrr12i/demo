@@ -34,4 +34,11 @@
 
     git init
         初始化仓库
+
+    git restore <filename>
+        重置文件
+
+    git rm <filename>
+        删除文件
+
     
