@@ -50,4 +50,16 @@
             git mv from to
             移动文件 重命名文件
     
-
+## 远程库
+    操作命令
+        git remote add <name> <url>
+            添加远程库
+        git branch -M main
+            修改主分支的名字
+        git push -u <name> main
+            上传推送
+        git remote remove <name>
+            删除远程库
+        git remote
+            查看当前关联远程库
+    

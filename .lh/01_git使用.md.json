@@ -1,0 +1,130 @@
+{
+    "sourceFile": "01_git使用.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 28,
+            "patches": [
+                {
+                    "date": 1681611210137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1681611222048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,5 +49,5 @@\n         移动文件：\r\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n-##\r\n+## 远程库\r\n"
+                },
+                {
+                    "date": 1681611229176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,5 +49,6 @@\n         移动文件：\r\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n-## 远程库\r\n+## 远程库操作\r\n+    git \r\n"
+                },
+                {
+                    "date": 1681611235340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,5 @@\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n ## 远程库操作\r\n-    git \r\n+    git remote \r\n"
+                },
+                {
+                    "date": 1681611302151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,5 @@\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n ## 远程库操作\r\n-    git remote \r\n+    git remote add \r\n"
+                },
+                {
+                    "date": 1681611307257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,5 @@\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n ## 远程库操作\r\n-    git remote add \r\n+    git remote add <name>\r\n"
+                },
+                {
+                    "date": 1681611313233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,6 @@\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n ## 远程库操作\r\n-    git remote add <name>\r\n+    git remote add <name> <url>\r\n+        \r\n"
+                },
+                {
+                    "date": 1681611319245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,5 +51,6 @@\n             移动文件 重命名文件\r\n     \r\n ## 远程库操作\r\n     git remote add <name> <url>\r\n-        \r\n+        添加远程库\r\n+    \r\n"
+                },
+                {
+                    "date": 1681611332496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,5 +52,5 @@\n     \r\n ## 远程库操作\r\n     git remote add <name> <url>\r\n         添加远程库\r\n-    \r\n+    git \r\n"
+                },
+                {
+                    "date": 1681611342205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,5 +52,6 @@\n     \r\n ## 远程库操作\r\n     git remote add <name> <url>\r\n         添加远程库\r\n-    git \r\n+    git branch -M main\r\n+    \r\n"
+                },
+                {
+                    "date": 1681611348414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,5 +53,5 @@\n ## 远程库操作\r\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n-    \r\n+        修改\r\n"
+                },
+                {
+                    "date": 1681611356599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,5 +53,5 @@\n ## 远程库操作\r\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n-        修改\r\n+        修改主分支的名字\r\n"
+                },
+                {
+                    "date": 1681611362656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,4 +54,5 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n+    \r\n"
+                },
+                {
+                    "date": 1681611385868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,5 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    \r\n+    git \r\n"
+                },
+                {
+                    "date": 1681611397062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,5 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    git \r\n+    git push \r\n"
+                },
+                {
+                    "date": 1681611476083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,5 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    git push \r\n+    git push -u <name>\r\n"
+                },
+                {
+                    "date": 1681611487906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,5 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    git push -u <name>\r\n+    git push -u <name> <>\r\n"
+                },
+                {
+                    "date": 1681611493482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,6 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    git push -u <name> <>\r\n+    git push -u <name> \"\"\r\n+    \r\n"
+                },
+                {
+                    "date": 1681611501119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,6 +54,7 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    git push -u <name> \"\"\r\n+    git push -u <name> \"name\"\r\n+\r\n     \r\n"
+                },
+                {
+                    "date": 1681611513871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,7 +54,7 @@\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n-    git push -u <name> \"name\"\r\n+    git push -u <name> main\r\n \r\n-    \r\n+\r\n"
+                },
+                {
+                    "date": 1681611521889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,6 +55,6 @@\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n     git push -u <name> main\r\n+        上传推送\r\n \r\n-\r\n"
+                },
+                {
+                    "date": 1681611531011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,5 +56,5 @@\n     git branch -M main\r\n         修改主分支的名字\r\n     git push -u <name> main\r\n         上传推送\r\n-\r\n+    git remote remove\r\n"
+                },
+                {
+                    "date": 1681611537540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,5 +56,5 @@\n     git branch -M main\r\n         修改主分支的名字\r\n     git push -u <name> main\r\n         上传推送\r\n-    git remote remove\r\n+    git remote remove <name>\r\n"
+                },
+                {
+                    "date": 1681611549587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,4 +57,5 @@\n         修改主分支的名字\r\n     git push -u <name> main\r\n         上传推送\r\n     git remote remove <name>\r\n+        删除远程库\r\n"
+                },
+                {
+                    "date": 1681611557389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,4 +58,6 @@\n     git push -u <name> main\r\n         上传推送\r\n     git remote remove <name>\r\n         删除远程库\r\n+    git remote\r\n+        \r\n"
+                },
+                {
+                    "date": 1681611563059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,5 +59,5 @@\n         上传推送\r\n     git remote remove <name>\r\n         删除远程库\r\n     git remote\r\n-        \r\n+        查看当前关联\r\n"
+                },
+                {
+                    "date": 1681611598805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n         移动文件：\r\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n-## 远程库操作\r\n+## 远程库\r\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n@@ -59,5 +59,6 @@\n         上传推送\r\n     git remote remove <name>\r\n         删除远程库\r\n     git remote\r\n-        查看当前关联\r\n+        查看当前关联远程库\r\n+    \r\n"
+                },
+                {
+                    "date": 1681611604806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n ## 远程库\r\n+操作命令\r\n     git remote add <name> <url>\r\n         添加远程库\r\n     git branch -M main\r\n         修改主分支的名字\r\n"
+                },
+                {
+                    "date": 1681611613649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,16 +50,16 @@\n             git mv from to\r\n             移动文件 重命名文件\r\n     \r\n ## 远程库\r\n-操作命令\r\n-    git remote add <name> <url>\r\n-        添加远程库\r\n-    git branch -M main\r\n-        修改主分支的名字\r\n-    git push -u <name> main\r\n-        上传推送\r\n-    git remote remove <name>\r\n-        删除远程库\r\n-    git remote\r\n-        查看当前关联远程库\r\n+    操作命令\r\n+        git remote add <name> <url>\r\n+            添加远程库\r\n+        git branch -M main\r\n+            修改主分支的名字\r\n+        git push -u <name> main\r\n+            上传推送\r\n+        git remote remove <name>\r\n+            删除远程库\r\n+        git remote\r\n+            查看当前关联远程库\r\n     \r\n"
+                }
+            ],
+            "date": 1681611210137,
+            "name": "Commit-0",
+            "content": "# Git\r\n## 配置\r\n    name\r\n        git config --global user.name \"lrr\"\r\n    email\r\n        git config --global user.email \"lrr12i@163.com\"\r\n\r\n## 使用git\r\n    git status \r\n        查看仓库状态\r\n            已跟踪\r\n                暂存：文件修改已保存，但是未提交到git仓库\r\n                未修改：磁盘中的文件和git仓库中文件相同，没有修改\r\n                已修改：磁盘中文件已被修改，和git仓库中文件不同\r\n                已修改 -> 暂存 -> 仓库\r\n            未跟踪\r\n                刚添加的文件\r\n\r\n                git add <filename>\r\n                git add *\r\n                    未跟踪-->暂存\r\n                    将文件切换到暂存状态\r\n\r\n                git commit -m \"第一次提交1.txt\"\r\n                    暂存-->未修改\r\n                    将暂存的文件存储到仓库中\r\n\r\n                    未修改-->修改\r\n                    修改代码后，文件变修改状态\r\n\r\n                git commit -a -m \"\"\r\n                    提交所有已修改文件(未跟踪文件不会提交)\r\n                \r\n                git init\r\n                    初始化仓库\r\n\r\n    重置文件：\r\n        git restore <filename>\r\n            恢复文件\r\n        git restore --staged <filename>\r\n            取消暂存状态\r\n\r\n    删除文件：\r\n        git rm <filename>\r\n            删除文件\r\n        git rm <filename> -f\r\n            强制删除文件\r\n\r\n        移动文件：\r\n            git mv from to\r\n            移动文件 重命名文件\r\n    \r\n##\r\n"
+        }
+    ]
+}
